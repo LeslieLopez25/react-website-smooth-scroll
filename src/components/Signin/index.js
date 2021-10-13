@@ -23,12 +23,12 @@ const SignIn = () => {
           </Icon>
           <FormContent>
             <Form action="#">
-              <FormH1>Sign in to your account</FormH1>
+              <FormH1>Sign In To Your Account</FormH1>
               <FormLabel htmlFor="for">Email</FormLabel>
               <FormInput type="email" required />
               <FormLabel htmlFor="for">Password</FormLabel>
               <FormButton type="submit">Continue</FormButton>
-              <Text>Forgot password</Text>
+              <Text>Forgot Password</Text>
             </Form>
           </FormContent>
         </FormWrap>

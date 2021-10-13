@@ -83,8 +83,8 @@ export const SidebarRouter = styled(LinkRouter)`
   cursor: pointer;
 
   &:hover {
-    transition: all 0.2s ease-in-out;
     background: hsl(270, 50%, 60%);
     color: hsl(0, 0%, 3.1%);
+    transition: all 0.2s ease-in-out;
   }
 `;
