@@ -4,7 +4,8 @@ import { Link as LinkScroll } from "react-scroll";
 import { FaHandHoldingUsd } from "react-icons/fa";
 
 export const Nav = styled.nav`
-  background: ${({ scrollNav }) => (scrollNav ? "#000" : "transparent")};
+  background: ${({ scrollNav }) =>
+    scrollNav ? "hsl(276.5,100%,9%)" : "transparent"};
   height: 80px;
   margin-top: -80px;
   display: flex;
@@ -31,7 +32,7 @@ export const NavbarContainer = styled.div`
 `;
 
 export const NavLogo = styled(LinkRouter)`
-  color: #fff;
+  color: hsl(240, 100%, 98.6%);
   justify-self: flex-start;
   cursor: pointer;
   font-size: 1.5rem;
@@ -58,7 +59,7 @@ export const MobileIcon = styled.div`
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
-    color: #fff;
+    color: hsl(240, 100%, 98.6%);
   }
 `;
 
@@ -79,7 +80,7 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(LinkScroll)`
-  color: #fff;
+  color: hsl(240, 100%, 98.6%);
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -116,7 +117,7 @@ export const NavBtnLink = styled(LinkRouter)`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #fff;
+    background: hsl(240, 100%, 98.6%);
     color: #010606;
   }
 `;
