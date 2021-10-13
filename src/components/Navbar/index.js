@@ -36,12 +36,18 @@ const Navbar = ({ toggle }) => {
 
   return (
     <>
-      <IconContext.Provider value={{ color: "#fff" }}>
+      <IconContext.Provider value={{ color: "hsl(240,100%,98.6%)" }}>
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
-            <NavLogo to="/" onClick={toggleHome}>
-              Bankroll <Money />
-            </NavLogo>
+            <IconContext.Provider
+              value={{
+                color: "hsl(210.1,100%,50%)"
+              }}
+            >
+              <NavLogo to="/" onClick={toggleHome}>
+                Bankroll <Money />
+              </NavLogo>
+            </IconContext.Provider>
             <MobileIcon onClick={toggle}>
               <FaBars />
             </MobileIcon>
