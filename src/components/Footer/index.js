@@ -17,6 +17,7 @@ import {
   SocialMedia,
   SocialMediaWrap,
   SocialLogo,
+  Money,
   WebsiteRights,
   SocialIcons,
   SocialIconLink
@@ -63,7 +64,9 @@ const Footer = () => {
         </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to="/">Bankroll</SocialLogo>
+            <SocialLogo to="/">
+              Bankroll <Money />
+            </SocialLogo>
             <WebsiteRights>
               Bankroll © {new Date().getFullYear()} All rights reserved.
             </WebsiteRights>

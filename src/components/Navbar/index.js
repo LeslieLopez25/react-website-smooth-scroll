@@ -5,6 +5,7 @@ import {
   Nav,
   NavbarContainer,
   NavLogo,
+  Money,
   MobileIcon,
   NavMenu,
   NavItem,
@@ -39,7 +40,7 @@ const Navbar = ({ toggle }) => {
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo to="/" onClick={toggleHome}>
-              Bankroll
+              Bankroll <Money />
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />

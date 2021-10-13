@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import { FaHandHoldingUsd } from "react-icons/fa";
 
 export const FooterContainer = styled.footer`
   background-color: #101522;
@@ -92,6 +93,11 @@ export const SocialLogo = styled(Link)`
   align-items: center;
   margin-bottom: 16px;
   font-weight: bold;
+`;
+
+export const Money = styled(FaHandHoldingUsd)`
+  position: relative;
+  left: 5px;
 `;
 
 export const WebsiteRights = styled.small`

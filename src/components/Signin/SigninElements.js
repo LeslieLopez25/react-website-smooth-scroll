@@ -1,5 +1,6 @@
-import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+import styled from "styled-components";
+import { Link } from "react-router-dom";
+import { FaHandHoldingUsd } from "react-icons/fa";
 
 export const Container = styled.div`
   min-height: 692px;
@@ -11,9 +12,9 @@ export const Container = styled.div`
   z-index: 0;
   overflow: hidden;
   background: linear-gradient(
-      108deg,
-      rgba(1, 147, 86, 1) 0%,
-      rgba(10, 201, 122, 1) 100%
+    108deg,
+    rgba(1, 147, 86, 1) 0%,
+    rgba(10, 201, 122, 1) 100%
   );
 `;
 
@@ -24,7 +25,7 @@ export const FormWrap = styled.div`
   justify-content: center;
 
   @media screen and (max-width: 400px) {
-      height: 80%;
+    height: 80%;
   }
 `;
 
@@ -36,10 +37,15 @@ export const Icon = styled(Link)`
   font-weight: 700;
   font-size: 32px;
 
-  @media screen and (max-width: 480px){
-      margin-left: 16px;
-      margin-top: 8px;
+  @media screen and (max-width: 480px) {
+    margin-left: 16px;
+    margin-top: 8px;
   }
+`;
+
+export const Money = styled(FaHandHoldingUsd)`
+  position: relative;
+  left: 5px;
 `;
 
 export const FormContent = styled.div`
@@ -49,7 +55,7 @@ export const FormContent = styled.div`
   justify-content: center;
 
   @media screen and (max-width: 480px) {
-      padding: 10px;
+    padding: 10px;
   }
 `;
 
@@ -66,7 +72,7 @@ export const Form = styled.form`
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
 
   @media screen and (max-width: 400px) {
-      padding: 32px 32px;
+    padding: 32px 32px;
   }
 `;
 

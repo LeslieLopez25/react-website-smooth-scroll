@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { Link as LinkRouter } from "react-router-dom";
 import { Link as LinkScroll } from "react-scroll";
+import { FaHandHoldingUsd } from "react-icons/fa";
 
 export const Nav = styled.nav`
   background: ${({ scrollNav }) => (scrollNav ? "#000" : "transparent")};
@@ -39,6 +40,11 @@ export const NavLogo = styled(LinkRouter)`
   margin-left: 24px;
   font-weight: bold;
   text-decoration: none;
+`;
+
+export const Money = styled(FaHandHoldingUsd)`
+  position: relative;
+  left: 5px;
 `;
 
 export const MobileIcon = styled.div`
