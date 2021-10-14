@@ -31,11 +31,11 @@ const Footer = () => {
           <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>About Us</FooterLinkTitle>
-              <FooterLink to="/signin">How it works</FooterLink>
+              <FooterLink to="/signin">How It Works</FooterLink>
               <FooterLink to="/">Testimonials</FooterLink>
               <FooterLink to="/">Careers</FooterLink>
               <FooterLink to="/">Investors</FooterLink>
-              <FooterLink to="/">Terms of Service</FooterLink>
+              <FooterLink to="/">Terms Of Service</FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>Contact Us</FooterLinkTitle>
@@ -57,7 +57,7 @@ const Footer = () => {
               <FooterLinkTitle>Social Media</FooterLinkTitle>
               <FooterLink to="/">Instagram</FooterLink>
               <FooterLink to="/">Facebook</FooterLink>
-              <FooterLink to="/">Youtube</FooterLink>
+              <FooterLink to="/">YouTube</FooterLink>
               <FooterLink to="/">Twitter</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>

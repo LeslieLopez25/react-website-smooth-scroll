@@ -3,31 +3,31 @@ import { Link } from "react-router-dom";
 import { FaHandHoldingUsd } from "react-icons/fa";
 
 export const FooterContainer = styled.footer`
-  background-color: #101522;
+  background-color: hsl(0, 0%, 3.1%);
 `;
 
 export const FooterWrap = styled.div`
-  padding: 48px 24px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 1100px;
   margin: 0 auto;
+  padding: 3rem 1.5rem;
+  max-width: 68.75rem;
 `;
 
 export const FooterLinksContainer = styled.div`
   display: flex;
   justify-content: center;
 
-  @media screen and (max-width: 820px) {
-    padding-top: 32px;
+  @media screen and (max-width: 51.25em) {
+    padding-top: 2rem;
   }
 `;
 
 export const FooterLinksWrapper = styled.div`
   display: flex;
 
-  @media screen and (max-width: 820px) {
+  @media screen and (max-width: 51.25rem) {
     flex-direction: column;
   }
 `;
@@ -36,38 +36,38 @@ export const FooterLinkItems = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin: 16px;
+  color: hsl(240, 100%, 98.6%);
   text-align: left;
-  width: 160px;
+  margin: 1rem;
+  width: 10rem;
   box-sizing: border-box;
-  color: #fff;
 
-  @media screen and (max-width: 420px) {
+  @media screen and (max-width: 26.25em) {
     margin: 0;
-    padding: 10px;
+    padding: 0.62rem;
     width: 100%;
   }
 `;
 
 export const FooterLinkTitle = styled.h1`
-  font-size: 14px;
-  margin-bottom: 16px;
+  font-size: 0.87rem;
+  margin-bottom: 1rem;
 `;
 
 export const FooterLink = styled(Link)`
-  color: #fff;
+  color: hsl(240, 100%, 98.6%);
+  font-size: 0.87rem;
   text-decoration: none;
   margin-bottom: 0.5rem;
-  font-size: 14px;
 
   &:hover {
-    color: #01bf71;
+    color: hsl(270, 50%, 60%);
     transition: 0.3s ease-out;
   }
 `;
 
 export const SocialMedia = styled.section`
-  max-width: 1000px;
+  max-width: 62.5rem;
   width: 100%;
 `;
 
@@ -75,44 +75,45 @@ export const SocialMediaWrap = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1100px;
-  margin: 40px auto 0 auto;
+  max-width: 68.75rem;
+  margin: 2.5rem auto 0 auto;
 
-  @media screen and (max-width: 820px) {
+  @media screen and (max-width: 51.25rem) {
     flex-direction: column;
   }
 `;
 
 export const SocialLogo = styled(Link)`
-  color: #fff;
-  justify-self: start;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 1.5rem;
   display: flex;
+  justify-self: start;
   align-items: center;
-  margin-bottom: 16px;
+  color: hsl(240, 100%, 98.6%);
+  font-size: 1.5rem;
   font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  cursor: pointer;
 `;
 
 export const Money = styled(FaHandHoldingUsd)`
+  color: hsl(210.1, 100%, 50%);
   position: relative;
-  left: 5px;
+  left: 0.312rem;
 `;
 
 export const WebsiteRights = styled.small`
-  color: #fff;
-  margin-bottom: 16px;
+  color: hsl(240, 100%, 98.6%);
+  margin-bottom: 0.5rem;
 `;
 
 export const SocialIcons = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 240px;
+  width: 15rem;
 `;
 
 export const SocialIconLink = styled.a`
-  color: #01bf71;
-  font-size: 24px;
+  color: hsl(210.1, 100%, 50%);
+  font-size: 1.5rem;
 `;
